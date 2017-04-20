@@ -1,6 +1,6 @@
 {
   "name": "cape-style",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "inline style builder",
   "main": "lib/index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   "dependencies": {
     "cape-lodash": "^1.11.0",
     "lodash": "^4.17.4",
-    "reselect": "^3.0.0"
+    "reselect": "^3.0.0",
+    "tinycolor2": "^1.4.1"
   }
 }
