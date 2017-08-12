@@ -3,5 +3,6 @@ import css from './index'
 
 test('default export css', () => {
   expect(css()).toBe(undefined)
-  expect(css(''))
+  expect(css('')).toEqual({})
+  expect(css({}, '', undefined)).toEqual({})
 })
